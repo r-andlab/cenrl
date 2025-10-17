@@ -1,0 +1,2 @@
+Artifact Evaluation and packaging followed: https://www.ieee-security.org/TC/SP2026/artifact_instructions.html
+- For AE Evaluation (Availability Badge): https://anonymous.4open.science/r/cenrl/README.md
