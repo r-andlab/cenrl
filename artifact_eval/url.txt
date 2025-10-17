@@ -1,3 +1,3 @@
 1. For AE Evaluation: https://anonymous.4open.science/r/cenrl (see README.txt for more information)
-2. For Zenodo (snapshots): 
-3. For Public GitHub (active development): 
+2. For Zenodo (All versions): https://doi.org/10.5281/zenodo.17381989
+3. For Public GitHub (active development): https://github.com/r-andlab/cenrl
