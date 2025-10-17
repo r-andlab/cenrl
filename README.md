@@ -1,5 +1,5 @@
 # CenRL
-CenRL is a reinforcement learning (RL) framework for optimizing and automating censorship measurements. CenRL intelligently selects and measures potential censorship targets through sequential decision making. This design enables real-time, dynamic decision-making efficiently utilizing the limited measurement resources available and adapting to the evolving landscape of censorship. CenRL formulates the censorship measurement task as a multi-armed bandit (MAB) problem, where an intelligent entity is given the goal of optimizing censorship detection within a limited time period. CenRL provides two functionalities: (Task 1:) maximizing the discovery of blocked websites within a network and (Task 2 (dyn):) rapidly and automatically detecting changes in blocking over time within a dynamic environment. For both tasks, CenRL operates on a large input list of websites to test, such as the Tranco list of popular websites. CenRL uses several features about websites for its action space: category, subdomain, TLD, website rank, and parent entity. These features are carefully selected to capture censorship patterns. This repository provides both controlled evaluation environments (ground truths gfwatch (CHINA), russia (RUSSIA), and kazakhstan (KAZAKHSTAN)), as well as APIs for real-world censorship measurements. 
+CenRL is a reinforcement learning (RL) framework for optimizing and automating censorship measurements. CenRL intelligently selects and measures potential censorship targets through sequential decision making. This design enables real-time, dynamic decision-making efficiently utilizing the limited measurement resources available and adapting to the evolving landscape of censorship. CenRL formulates the censorship measurement task as a multi-armed bandit (MAB) problem, where an intelligent entity is given the goal of optimizing censorship detection within a limited time period. CenRL provides two functionalities: (Task 1:) maximizing the discovery of blocked websites within a network and (Task 2 (dyn):) rapidly and automatically detecting changes in blocking over time within a dynamic environment. For both tasks, CenRL operates on a large input list of websites to test, such as the Tranco list of popular websites. CenRL uses several features about websites for its action space: category, subdomain, TLD, website rank, and parent entity. These features are carefully selected to capture censorship patterns. This repository provides both controlled evaluation environments (ground truths gfwatch (CHINA), russia (RUSSIA), and kazakhstan (KAZAKHSTAN)), as well as APIs for real-world censorship measurements. For more information, refer to [our paper](https://ramakrishnansr.com/assets/cenrl.pdf).
 
 
 ## Integrating CenRL Into Real-world Measurements
@@ -136,9 +136,23 @@ Once you are done with using CenRL, you can deactivate the virtual environment u
 - `scripts/eval_full` contains eval scripts for hyperparameter tuning for controlled environments
 - `scripts/eval_full_real_world` contains eval scripts to run CenRL integrated with a real-world measurement platform.
 
+## Disclaimer
+Russing CenRL measurements from your machine may place you at risk if you use it within a highly restrictive networks. Therefore, please exercise caution while using the tool, and understand the risks of running CenRL before using it on your machine. Please refer to [our paper](https://ramakrishnansr.com/assets/cenrl.pdf) for more information.
+
+## Citation
+If you use the CenRL tool or data, please cite the following publication:
+```
+@inproceedings{afek2024flushing,
+  title={CenRL: A Framework for Performing Intelligent Censorship Measurements},
+  author={Le, Hieu and Wang, Kevin and Huremagic, Armin and Ensafi, Roya and Sundara Raman, Ram},
+  booktitle={IEEE Security & Privacy 2026 (IEEE S&P 26)},
+  year={2026}
+}
+```
+
 
 ## Contact
-For any questions, reach out to cenrl.research@gmail.com
+For any questions, reach out to rsundar2@ucsc.edu, levanhieu@gmail.com, musicer@umich.edu, agix@umich.edu, and ensafi@umich.edu.
 
 - Real-world Data Notice: The data collected during our real-world experiments are snapshots of of detected blocking at specific moments in time and not meant to be used to replicate results. Thus, we are not open-sourcing them at this moment. Feel free to contact us for more information.
 
