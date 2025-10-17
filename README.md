@@ -142,7 +142,7 @@ Russing CenRL measurements from your machine may place you at risk if you use it
 ## Citation
 If you use the CenRL tool or data, please cite the following publication:
 ```
-@inproceedings{afek2024flushing,
+@inproceedings{le2025cenrl,
   title={CenRL: A Framework for Performing Intelligent Censorship Measurements},
   author={Le, Hieu and Wang, Kevin and Huremagic, Armin and Ensafi, Roya and Sundara Raman, Ram},
   booktitle={IEEE Security & Privacy 2026 (IEEE S&P 26)},
