@@ -156,5 +156,5 @@ If you use the CenRL tool or data, please cite the following publication:
 ## Contact
 For any questions, reach out to rsundar2@ucsc.edu, levanhieu@gmail.com, musicer@umich.edu, agix@umich.edu, and ensafi@umich.edu.
 
-- Real-world Data Notice: The data collected during our real-world experiments are snapshots of detected blocking at specific moments in time and not meant to be used to replicate results. Thus, we are not open-sourcing them at this moment. Feel free to contact us for more information.
+- Real-world Data Notice: The data collected during our real-world experiments are snapshots of detected blocking at specific moments in time and not meant to be used to replicate results. Feel free to contact us for access to the data or more information.
 
